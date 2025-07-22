@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="photo.css" />
+	  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	
+	  
+  <div class="photo">
+    <div class="div">
+		  
+	  <div class="resize-container"></div>
+      <div class="text-wrapper">PHOTOGRAPHY</div>
+        <div class="overlap"><img src="pictures/photo_6078118008426970188_y.jpg" alt="dazai photo" width="465" height="680" class="rectangle-11" /></div>
+      <div class="overlap-group">
+          <img src="pictures/IMG_8529-min.jpg" alt="cosplay photo" width="450" height="648" class="rectangle-2" /> <img class="rectangle-3" src="pictures/IMG_8283-min.jpg" alt="cat photo" />
+      </div>
+        <img src="pictures/diagonals-min.JPG" alt="diagonal photo" width="644" height="424" class="rectangle-6" />
+        <img class="rectangle-7" src="pictures/ruleofthird.jpg" alt="rule of third photo"/>
+        <img class="rectangle-8" src= "pictures/IMG_5855-min.jpg" alt="candid photo" />
+		
+      <div class="overlap-3">
+          <div class="overlap-4"></div>
+        <div class="overlap-5">
+            <div class="rectangle-10"></div>
+			  <a href= "index.html">
+            <div class="text-wrapper-2">HOME</div> </a>
+          </div>
+		  
+		
+    <img src="pictures/photog.png" alt="Photo" />
+ 
+      </div>
+      <div class="div-wrapper"><a href="illustration.html"><div class="text-wrapper-3">ILLUSTRATION</div></a></div>
+      <div class="overlap-6">
+			<a href="graphic.html">
+	  <div class="text-wrapper-4">GRAPHIC DESIGN</div></a></div>
+      <div class="overlap-7">
+	    <a href="video.html">
+	    <div class="text-wrapper-5">VIDEO EDITING &amp; CONTENT CREATION</div></a>
+			
+		<div class="text-wrapper-6">PHOTOGRAPHY</div>
+		  
+	    <div class="image-wrapper"></div>
+      </div>
+    </div>
+  </div>
+	  <div id="imagePopup" class="popup-modal">
+  <span class="close" onclick="closePopup()">&times;</span>
+  <img class="popup-content" id="popupImage" alt="button" />
+		
+  <script>
+      const modal = document.getElementById("imagePopup");
+      const popupImg = document.getElementById("popupImage");
+
+      // Select all images except .rectangle, .rectangle-9, and .no-popup
+      const images = document.querySelectorAll(".photo img:not(.rectangle):not(.rectangle-9):not([src='pictures/photog.png'])");
+
+      images.forEach(img => {
+        img.addEventListener("click", () => {
+          popupImg.src = img.src;
+          modal.style.display = "block";
+        });
+      });
+
+      function closePopup() {
+        modal.style.display = "none";
+        popupImg.src = "";
+      }
+
+      // Close when clicking outside image
+      modal.addEventListener("click", e => {
+        if (e.target === modal) closePopup();
+      });
+    </script>
+</div>
+  </body>
+</html>

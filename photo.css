@@ -1,0 +1,425 @@
+.photo {
+  background-color: #004ecd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo .div {
+  background-color: #004ecd;
+  width: 1440px;
+  height: 2300px;
+  position: relative;
+}
+.resize-container {
+  width: 100%;
+  height: auto;
+}
+
+.resize-container img {
+  width: 400px;
+  height: auto;
+  display: block;
+  position: static;
+  margin: 20px;
+}
+.photo .text-wrapper {
+    position: absolute;
+    top: 144px;
+    left: 101px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.photo .overlap {
+    position: absolute;
+    width: 445px;
+    height: 646px;
+    top: 264px;
+    left: 980px;
+}
+
+.photo .rectangle {
+  position: absolute;
+  width: 847px;
+  height: 654px;
+  top: -2208px;
+  left: -800px;
+}
+
+.photo .group {
+  position: absolute;
+  width: 458px;
+  height: 652px;
+  top: 2204px;
+  left: 632px;
+}
+
+.photo .img {
+  position: absolute;
+  width: 407px;
+  height: 568px;
+  top: 784px;
+  left: 80px;
+  object-fit: cover;
+}
+
+.photo .overlap-group {
+    position: absolute;
+    width: 926px;
+    height: 616px;
+    top: 300px;
+    left: 58px;
+}
+
+.photo .rectangle-2 {
+    position: absolute;
+    width: 410px;
+    height: 600px;
+    top: 22px;
+    left: 503px;
+}
+
+.photo .rectangle-3 {
+    position: absolute;
+    width: 414px;
+    height: 592px;
+    top: 20px;
+    left: 50px;
+    object-fit: cover;
+}
+
+.photo .rectangle-wrapper {
+  position: absolute;
+  width: 460px;
+  height: 616px;
+  top: 934px;
+  left: 202px;
+  background-image: url(./img/rectangle-63.png);
+  background-size: 100% 100%;
+}
+
+.photo .overlap-2 {
+  position: absolute;
+  width: 472px;
+  height: 616px;
+  top: 924px;
+  left: 868px;
+}
+
+.photo .rectangle-4 {
+  position: absolute;
+  width: 460px;
+  height: 616px;
+  top: 0;
+  left: 11px;
+}
+
+.photo .rectangle-5 {
+  position: absolute;
+  width: 423px;
+  height: 568px;
+  top: 0;
+  left: 0;
+}
+
+.photo .rectangle-6 {
+    position: absolute;
+    width: 650px;
+    height: 476px;
+    top: 942px;
+    left: 778px;
+}
+
+.photo .rectangle-7 {
+    position: absolute;
+    width: 676px;
+    height: 488px;
+    top: 942px;
+    left: 82px;
+}
+
+.photo .rectangle-8 {
+  position: absolute;
+  width: 790px;
+  height: 536px;
+  top: 1474px;
+  left: 354px;
+}
+
+.photo .overlap-3 {
+    position: absolute;
+    width: 753px;
+    height: 114px;
+    top: -1px;
+    left: 684px;
+}
+
+.photo .overlap-4 {
+  position: absolute;
+  width: 616px;
+  height: 704px;
+  top: -1181px;
+  left: 277px;
+}
+
+.photo .rectangle-9 {
+  position: absolute;
+  width: 580px;
+  height: 890px;
+  top: -836px;
+  left: 656px;
+}
+
+.photo .overlap-group-wrapper {
+  position: absolute;
+  width: 172px;
+  height: 162px;
+  top: 714px;
+  left: 1002px;
+}
+
+.photo .overlap-group-2 {
+  position: relative;
+  width: 191px;
+  height: 183px;
+}
+
+.photo .vector {
+  position: absolute;
+  width: 191px;
+  height: 183px;
+  top: 0;
+  left: 0;
+}
+
+.photo .arrow {
+  position: absolute;
+  width: 52px;
+  height: 54px;
+  top: 44px;
+  left: 87px;
+}
+
+.photo .overlap-5 {
+  position: absolute;
+  width: 262px;
+  height: 70px;
+  top: 2164px;
+  left: -640px;
+}
+
+.photo .rectangle-10 {
+  position: absolute;
+  width: 169px;
+  height: 70px;
+  top: 0;
+  left: 12px;
+  background-color: #d9d9d9;
+  border-radius: 95px;
+  box-shadow: 22px 14px 0px #00000040;
+}
+
+.photo .text-wrapper-2 {
+  position: absolute;
+  width: 118px;
+  top: 16px;
+  left: 48px;
+  font-family: "Lilita One", cursive;
+  font-weight: 400;
+  color: #004ecd;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.photo .div-wrapper {
+  position: absolute;
+  width: 176px;
+  height: 70px;
+  top: 1px;
+  left: 873px;
+  background-image: url(./img/vector-13.svg);
+  background-size: 100% 100%;
+}
+
+.photo .text-wrapper-3 {
+    position: absolute;
+    width: 134px;
+    top: 30px;
+    left: 21px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #141414;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.photo .overlap-6 {
+  position: absolute;
+  width: 176px;
+  height: 70px;
+  top: 1px;
+  left: 675px;
+  background-image: url(./img/vector-14.svg);
+  background-size: 100% 100%;
+}
+
+.photo .text-wrapper-4 {
+    position: absolute;
+    width: 172px;
+    top: 30px;
+    left: 10px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #141414;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.photo .overlap-7 {
+  position: absolute;
+  width: 363px;
+  height: 118px;
+  top: 0;
+  left: 1058px;
+}
+
+.photo .vector-2 {
+  position: absolute;
+  width: 176px;
+  height: 70px;
+  top: 2px;
+  left: 187px;
+}
+
+.photo .text-wrapper-5 {
+  position: absolute;
+  width: 138px;
+  top: 2px;
+  left: 204px;
+  font-family: "Lilita One", cursive;
+  font-weight: 400;
+  color: #141414;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.photo .vector-3 {
+  position: absolute;
+  width: 176px;
+  height: 118px;
+  top: 0;
+  left: 0;
+}
+
+.photo .text-wrapper-6 {
+    position: absolute;
+    width: 178px;
+    top: 40px;
+    left: 13px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #d9d9d9;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.popup-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup-content {
+  margin: auto;
+  display: block;
+  max-width: 95%;
+  max-height: 95%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #fff;
+}
+
+.popup-modal .close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup-modal .close:hover,
+.popup-modal .close:focus {
+  color: #f1f1f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photo img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.photo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.photo .rectangle,
+.photo .rectangle-9,
+.photo img[src="pictures/photog.png"] {
+  pointer-events: none;
+  cursor: none !important;
+  transition: none;
+  filter: none;
+}
+
+.photo .rectangle-11 {
+    pointer-events: auto;
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    left: 32px;
+    top: 44px;
+    width: 393px;
+    height: 606px;
+}
+
+.text-wrapper-3,
+.text-wrapper-4,
+.text-wrapper-5 {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.text-wrapper-3:hover,
+.text-wrapper-4:hover,
+.text-wrapper-5:hover {
+  color: #FF6F61;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: url('pictures/custom-cursor.png'), pointer;
+}

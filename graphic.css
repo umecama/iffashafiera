@@ -1,0 +1,471 @@
+/* CSS Document */
+
+.graphic {
+  background-color: #004ecd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.graphic .div {
+  background-color: #004ecd;
+  width: 1440px;
+  height: 3631px;
+  position: relative;
+}
+
+.graphic .overlap {
+  position: absolute;
+  width: 805px;
+  height: 259px;
+  top: 0;
+  left: 63px;
+}
+
+.graphic .text-wrapper {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  font-family: "Lilita One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.graphic .vector {
+  width: 176px;
+  height: 118px;
+  left: 629px;
+  position: absolute;
+  top: 0;
+}
+
+.graphic .group {
+  position: absolute;
+  width: 747px;
+  height: 199px;
+  top: 60px;
+  left: 0;
+}
+
+.graphic .overlap-group {
+  position: relative;
+  width: 743px;
+  height: 199px;
+}
+
+.graphic .text-wrapper-2 {
+  position: absolute;
+  width: 743px;
+  top: 0;
+  left: 0;
+  font-family: "Lilita One", cursive ;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.graphic .text-wrapper-3 {
+    position: absolute;
+    top: 90px;
+    left: 239px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.graphic .text-wrapper-4 {
+    position: absolute;
+    width: 131px;
+    top: 37px;
+    left: 646px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.graphic .overlap-2 {
+  position: absolute;
+  width: 460px;
+  height: 616px;
+  top: 306px;
+  left: 202px;
+}
+
+.graphic .rectangle {
+    position: absolute;
+    width: 1442px;
+    height: 853px;
+    top: 3px;
+    left: -202px;
+}
+
+.graphic .img {
+    position: absolute;
+    width: 364px;
+    height: 520px;
+    top: 887px;
+    left: -136px;
+}
+
+.graphic .rectangle-2 {
+    position: absolute;
+    width: 364px;
+    height: 520px;
+    top: 1198px;
+    left: 541px;
+}
+
+.graphic .rectangle-3 {
+  position: absolute;
+  width: 460px;
+  height: 616px;
+  top: 934px;
+  left: 202px;
+}
+
+.graphic .rectangle-4 {
+    position: absolute;
+    width: 358px;
+    height: 536px;
+    top: 1744px;
+    left: 990px;
+}
+
+.graphic .rectangle-5 {
+    position: absolute;
+    width: 368px;
+    height: 520px;
+    top: 1737px;
+    left: 61px;
+
+}
+.graphic .rectangle-12 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 2841px;
+    left: 489px;
+	
+}  
+.graphic .rectangle-20 {
+    position: absolute;
+    width: 368px;
+    height: 520px;
+    top: 1991px;
+    left: 331px;
+}
+
+.graphic .rectangle-11 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 2843px;
+    left: 955px;
+}
+.graphic .div-wrapper {
+  position: absolute;
+  width: 176px;
+  height: 70px;
+  top: 1px;
+  left: 879px;
+  background-image: url(./img/vector-5.svg);
+  background-size: 100% 100%;
+}
+
+.graphic .text-wrapper-5 {
+    position: absolute;
+    width: 134px;
+    top: 24px;
+    left: 24px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.graphic .overlap-3 {
+  position: absolute;
+  width: 363px;
+  height: 70px;
+  top: 0;
+  left: 1070px;
+}
+
+.graphic .vector-2 {
+  width: 176px;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.graphic .vector-3 {
+  width: 176px;
+  height: 70px;
+  left: 187px;
+  position: absolute;
+  top: 0;
+}
+
+.graphic .text-wrapper-6 {
+    position: absolute;
+    width: 155px;
+    top: 3px;
+    left: 192px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #141414;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.graphic .text-wrapper-7 {
+    position: absolute;
+    width: 178px;
+    top: 25px;
+    left: 18px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.graphic .rectangle-6 {
+    position: absolute;
+    width: 358px;
+    height: 522px;
+    top: 1198px;
+    left: 993px;
+}
+
+.graphic .rectangle-7 {
+    position: absolute;
+    width: 358px;
+    height: 500px;
+    top: 2309px;
+    left: 992px;
+}
+
+.graphic .rectangle-8 {
+    position: absolute;
+    width: 364px;
+    height: 520px;
+    top: 2297px;
+    left: 59px;
+}
+
+.graphic .rectangle-9 {
+    position: absolute;
+    width: 362px;
+    height: 528px;
+    top: 1744px;
+    left: 540px;
+}
+.graphic .rectangle-15 {
+    position: absolute;
+    width: 796px;
+    height: 1139px;
+    top: 2286px;
+    left: 546px;
+}
+
+.graphic .overlap-4 {
+  position: absolute;
+  width: 262px;
+  height: 70px;
+  top: 3488px;
+  left: 71px;
+}
+
+.graphic .rectangle-10 {
+    position: absolute;
+    width: 441px;
+    height: 446px;
+    top: 2842px;
+    left: 20px;
+    background-color: #d9d9d9;
+   
+}
+
+.graphic .text-wrapper-8 {
+    position: absolute;
+    width: 224px;
+    top: 18px;
+    left: 68px;
+    font-family: "Lilita One", "cursive;";
+    font-weight: 400;
+    color: #004ecd;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.graphic .overlap-wrapper {
+  position: absolute;
+  width: 172px;
+  height: 162px;
+  top: 3430px;
+  left: 1229px;
+}
+
+.graphic .overlap-5 {
+  position: relative;
+  width: 191px;
+  height: 183px;
+}
+
+.graphic .vector-4 {
+  width: 191px;
+  height: 183px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.graphic .arrow {
+  position: absolute;
+  width: 52px;
+  height: 54px;
+  top: 44px;
+  left: 87px;
+}
+
+.popup-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+}
+
+.popup-content {
+  margin: auto;
+  display: block;
+  max-width: 95%;  /* Increase width to make image larger */
+  max-height: 95%; /* Increase height to make image larger */
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #fff; /* White glow around the image */
+}
+
+.popup-modal .close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup-modal .close:hover,
+.popup-modal .close:focus {
+  color: #f1f1f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.graphic img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.graphic img:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Soft shadow */
+  z-index: 10;
+}
+
+.graphic img[src="pictures/graphic_port.jpg"] {
+  pointer-events: none; /* disables clicking */
+  cursor: default;      /* optional: prevents pointer cursor */
+  transition: none;     /* disables hover transition if any */
+  filter: none;         /* disables hover filter effect if any */
+}
+.graphic overlap-2[src="pictures/mokcup@3x.png"] {
+  pointer-events: none; /* disables clicking */
+  cursor: default;      /* optional: prevents pointer cursor */
+  transition: none;     /* disables hover transition if any */
+  filter: none;         /* disables hover filter effect if any */
+}
+
+.graphic .rectangle:hover,
+.graphic .rectangle-15:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  z-index: auto !important;
+  cursor: default !important;
+}
+
+.text-wrapper-5, .text-wrapper-6, .text-wrapper-7 {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.text-wrapper-5:hover,
+.text-wrapper-6:hover,
+.text-wrapper-7:hover {
+  color: #FF6F61; /* Change to your preferred hover color */
+  transform: scale(1.1); /* Slightly enlarge the text */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Custom cursor image */
+.text-wrapper-5:hover,
+.text-wrapper-6:hover,
+.text-wrapper-7:hover {
+  cursor: url('pictures/custom-cursor.png'), pointer;
+}
+
+
+.graphic .rectangle-21 {
+    width: 169px;
+    height: 70px;
+    top: 3488px;
+    left: -972px;
+    background-color: #d9d9d9;
+    border-radius: 95px;
+    box-shadow: 22px 14px 0px #00000040;
+    position: absolute;
+}
+
+.graphic .text-wrapper-10 {
+    position: absolute;
+    width: 224px;
+    top: 3494px;
+    left: -832px;
+    font-family: "Lilita One", "cursive;";
+    font-weight: 400;
+    color: #004ecd;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
