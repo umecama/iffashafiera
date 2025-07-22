@@ -164,16 +164,16 @@
 }
 
 .video .text-wrapper-4 {
-  position: absolute;
-  width: 134px;
-  top: 19px;
-  left: 21px;
-  font-family: "Lilita One", cursive;
-  font-weight: 400;
-  color: #141414;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
+    position: absolute;
+    width: 134px;
+    top: 16px;
+    left: -1px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #141414;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .video .overlap-2 {
@@ -187,17 +187,17 @@
 }
 
 .video .text-wrapper-5 {
-  position: absolute;
-  width: 172px;
-  top: 20px;
-  left: 5px;
-  font-family: "Lilita One", cursive;
-  font-weight: 400;
-  color: #141414;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+    position: absolute;
+    width: 172px;
+    top: 16px;
+    left: -16px;
+    font-family: "Lilita One", cursive;
+    font-weight: 400;
+    color: #141414;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .video .overlap-3 {
@@ -219,7 +219,7 @@
 .video .text-wrapper-6 {
     position: absolute;
     width: 178px;
-    top: -277px;
+    top: -285px;
     left: 169px;
     font-family: "Lilita One", cursive;
     font-weight: 400;
